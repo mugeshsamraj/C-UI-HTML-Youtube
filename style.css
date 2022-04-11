@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+}
+.header-center form{
+  
+}
+.header-center form input{
+  width: 40rem;
+  border: 2px solid;
+}
+.container{
+  display: flex;
+}
+.sidebar{
+  display: grid;
+  width:10rem;
+  overflow-y: scroll;
+  height: calc(100vh-5rem);
+}
+.video_section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: none;
+  margin: 0;
+
+}
+.video_bottom_section{
+  display: flex;
+  text-decoration: none;
+  padding: 1rem;
+}
+.channel-icon{
+  border-radius: 50%;
+  padding: none;
+}
+.video title{
+  display:flex;
+  text-decoration: none;
+
+}
+.channel-name{
+  display: grid;
+  text-decoration: none;
+}
